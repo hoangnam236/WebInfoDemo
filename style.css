@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+.Logo{
+    padding: 1px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 5px 0px rgba(173,3,3,0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(173,3,3,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(173,3,3,0.75);
+}
+.logo_left svg{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.logo_left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo_left div:hover{
+    color: #eb2f06;
+}
+
+.logo_left, 
+.logo_right{
+    display: flex;
+    align-items: center;
+}
+
+.logo_left > *,
+.logo_right > *,
+.contact > * {
+    margin: 10px;
+}
+
+.sign-in, 
+.log-in,.insta, .email, .fa {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px
+}
+
+.log-in, .fa {
+    background-color: black;
+    color: white;
+}
+
+.log-in:hover, .fa:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover, .insta:hover, .email:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product {
+    display: flex;
+}
+
+.product-left, .product-right {
+    max-width: 50%;
+    width: 50%;
+}
+
+.productt-title, .info{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    padding: 0px;
+}
+
+.product-right {
+    padding: 100px;
+}
+
+.contact {
+    padding: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_left {
+    transform: translateX(50%);
+}
+.info, .productt-title {
+    transform: translateY(40%);
+}
